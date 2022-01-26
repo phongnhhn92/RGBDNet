@@ -1,6 +1,6 @@
 # RGBD-Net
 
-## [IEEE Paper](https://ieeexplore.ieee.org/document/9665841) |  [arXiv](https://arxiv.org/abs/2103.15595)
+## [IEEE Paper](https://ieeexplore.ieee.org/document/9665841) |  [arXiv](https://arxiv.org/abs/2011.14398)
 <div style="text-align: justify"> This repository contains a pytorch lightning implementation for the 3DV 2021 RGBD-Net paper. We propose a new cascaded architecture for novel view synthesis, called RGBD-Net, which consists of two core components: a hierarchical depth regression network and a depth-aware generator network. The former one predicts depth maps of the target views by using adaptive depth scaling, while the latter one leverages the predicted depths and renders spatially and temporally consistent target images.</div><br><br>
 
 ![Pipeline](imgs/teaser.png)
